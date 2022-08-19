@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: grey;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+    <link rel="icon" href="crown logo.jpg">
+    <meta charset="utf-8">
+    <title>Crown Motors Limited | Shops</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body bgcolor="brown">
+<div class="wrapper">
+  <div class="nav">
+    <div class="logo">
+      <marquee scrollamount="2">Crown Motors</marquee>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="welcome.html">Home</a></li>
+        <li><a href="purchase.html" target="_blank">Make a Purchase</a></li>
+        <li><a href="Shops.html">Shops</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>SHOPS</h1>
+<hr>
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Images\shop1.jfif" alt="Shop 1" style="width:100%">
+      <h3>NAIROBI BRANCH</h3>
+      <p>This Shop is located on the star plaza opposite Nairobi Cinemas</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images\shop2.jpg" alt="Shop 2" style="width:100%">
+      <h3>NAIVASHA BRANCH</h3>
+      <p>This shop is located along Milimani Avenue opposite Mt Longonot Hospital.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images\shop3.jpg" alt="Shop 3" style="width:100%">
+      <h3>MOMBASA BRANCH</h3>
+      <p>This shop is located on Wahenga plaza along Maembe Mnazi Drive. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Images\shop4.jpg" alt="Shop 4" style="width:100%">
+      <h3>KISUMU BRANCH</h3>
+      <p>This shop is located along the Veterans Drive Hotel opposite Lake Victoria Resort</p>
+    </div>
+</div>
+<!-- END GRID -->
+<div class="column">
+  <div class="content">
+  <img src="Images\shop5.jpg" alt="Shop 5" style="width:100%">
+  <h3>TURKANA BRANCH</h3>
+  <p>This shop is located on Crown Block opposite Lake Turkkana Drive.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="crown logo.jpg">
+    <meta charset="utf-8">
+    <title>Crown Motors Limited | About Us</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body bgcolor="dark red">
+<div class="wrapper">
+  <div class="nav">
+    <div class="logo">
+      <marquee scrollamount="2">Crown Motors</marquee>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="welcome.html">Home</a></li>
+        <li><a href="purchase.html" target="_blank">Make a Purchase</a></li>
+        <li><a href="Shops.html">Shops</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+ <div style="text-align:center">
+   <h2>Contact Us</h2>
+   <p>Swing by for a cup of coffee, or leave us a message:</p>
+ </div>
+ <div class="row">
+   <div class="column">
+     <img src="crown logo.jpg" style="width:100%">
+   </div>
+   <div class="column">
+     <form action="action_page.php">
+       <label for="fname">First Name</label>
+       <input type="text" id="fname" name="firstname" placeholder="Your name..">
+       <label for="lname">Last Name</label>
+       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+       <label for="location">Location</label>
+       <select id="location" name="location">
+         <option value="" disabled selected hidden>Please Select a Town</option>
+         <option value="mombasa">Mombasa</option>
+         <option value="nairobi">Nairobi</option>
+         <option value="kisumu">Kisumu</option>
+         <option value="turkana">Turkana</option>
+         <option value="naivasha">Naivasha</option>
+       </select>
+       <label for="subject">Subject</label>
+       <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+       <input type="submit" value="Submit">
+     </form>
+   </div>
+ </div>
+</div>
+  </body>
+</html>
